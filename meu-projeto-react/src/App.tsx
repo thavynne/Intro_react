@@ -9,6 +9,8 @@ import Formulario from './Formulario'
 import Usuario from './Usuario'
 import ListaDeTarefas from './ListaDeTarefas'
 import ListaSimples from './ListaSimples'
+import ListaProdutos from './ListaProdutos'
+import ListaDeCompras from './ListaDeCompras'
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <Usuario logado={true} />
       <ListaDeTarefas />
       <ListaSimples />
+      <ListaProdutos />
+      <ListaDeCompras />
     </div>
   )
 }
