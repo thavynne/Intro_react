@@ -11,6 +11,7 @@ import ListaDeTarefas from './ListaDeTarefas'
 import ListaSimples from './ListaSimples'
 import ListaProdutos from './ListaProdutos'
 import ListaDeCompras from './ListaDeCompras'
+import ListaDeTarefas2 from './ListaDeTarefas2'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <ListaSimples />
       <ListaProdutos />
       <ListaDeCompras />
+      <ListaDeTarefas2 />
     </div>
   )
 }
